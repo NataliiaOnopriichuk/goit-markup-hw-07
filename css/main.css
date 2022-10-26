@@ -416,4 +416,46 @@ header {
 .main-screen__button:hover, .main-screen__button:focus {
   color: #FFFFFF;
   background-color: #188CE8;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-title {
+  color: #212121;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.our-features__list {
+  display: flex;
+  gap: 30px;
+}
+
+.our-features__list-item {
+  gap: 30px;
+}
+
+.our-features__list-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: #F5F4FA;
+}
+
+.our-features__item-title {
+  margin-bottom: 10px;
+  color: #212121;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.our-features__item-text {
+  line-height: 1.7;
 }/*# sourceMappingURL=main.css.map */
