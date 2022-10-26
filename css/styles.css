@@ -9,14 +9,15 @@
     --hover-blue-color:#188CE8;
     --primary-icon-color:#AFB1B8;
     --decoration-color:#000000;
+    --light-border:#ECECEC;
 
     --transition-effect:cubic-bezier(0.4,0,0.2,1);
 }
 
 
-header {
-    border-bottom: 1px solid #ECECEC;
-}
+/* header {
+    border-bottom: 1px solid var(--light-border);
+} */
 
 
 

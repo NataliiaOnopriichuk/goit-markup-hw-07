@@ -1,2 +1,6 @@
-@import "./utils/variables";
 @import "./base/normalize";
+@import "./utils/variables";
+@import "./utils/const";
+@import "./components/shared/logo";
+@import "./components/header/main-nav";
+@import "./components/header/main-contacts";
