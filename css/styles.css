@@ -23,26 +23,26 @@ header {
 
 
 
-/* main nav */
+/* 
 .main-nav {
     display: flex;
     align-self: center;
 }
 
-/* site nav */
-.site-nav {
+
+.main-nav__list {
     display: flex;
     gap:50px;
     margin-left: 93px;
 }
 
-.site-nav .item {
+.main-nav__list-item {
     position: relative;
 
     flex-basis: calc((100%-100px)/3);
 }
 
-.site-nav .link {
+.main-nav__list-link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -70,17 +70,17 @@ header {
     background-color: var(--accent-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.main-nav__list-link:hover,
+.main-nav__list-link:focus {
     color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.main-nav__list-link--active.current {
     color: var(--accent-color);
-}
+} */
 
 /* контакти */
-.auth-nav {
+/* .main-contacts {
     display: flex;
     margin-left: auto;
 }
@@ -89,17 +89,16 @@ header {
     margin-left: 50px;
 }
 
-.auth-nav .item {
+.main-contacts__list-item {
     display: flex;
     align-items: center;
 }
 
-.auth-nav .tel,
-.auth-nav .envelope {
+.main-contacts__list-icon {
     margin-right: 10px;
 }
 
-.auth-nav .link {
+.main-contacts__list-link {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -117,11 +116,11 @@ header {
                 fill 250ms var(--transition-effect);
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.main-contacts__list-link:hover,
+.main-contacts__list-link:focus {
     color: var(--accent-color);
     fill: currentColor;
-}
+} */
 
 /* footer */
 .footer {

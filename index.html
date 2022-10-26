@@ -19,36 +19,43 @@
       <!-- Навігація на інші сторінки -->
       <div class="container main-nav">
         <nav class="main-nav">
-          <a class="logo main-nav__logo" href="./index.html"
+          <a class="logo" href="./index.html"
             ><span class="logo__content">Web</span>Studio</a
           >
           <ul class="main-nav__list">
             <li class="main-nav__list-item">
               <a
-                class="site-nav__list-link site-nav__list-link--active current"
+                class="main-nav__list-link main-nav__list-link--active"
                 href="./index.html"
                 >Студія</a
               >
             </li>
-            <li class="site-nav__list-item">
-              <a href="./portfolio.html" class="link">Портфоліо</a>
+            <li class="main-nav__list-item">
+              <a class="main-nav__list-link" href="./portfolio.html"
+                >Портфоліо</a
+              >
             </li>
-            <li class="item"><a href="#" class="link">Контакти</a></li>
+            <li class="main-nav__list-item">
+              <a class="main-nav__list-link" href="#">Контакти</a>
+            </li>
           </ul>
         </nav>
         <!-- Контакти -->
-        <ul class="auth-nav">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link">
-              <svg class="envelope" height="12" width="16">
+        <ul class="main-contacts">
+          <li class="main-contacts__list-item">
+            <a
+              class="main-contacts__list-link"
+              href="mailto:info@devstudio.com"
+            >
+              <svg class="main-contacts__list-icon" height="12" width="16">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="link">
-              <svg class="tel" height="16" width="10">
+          <li class="main-contacts__list-item">
+            <a class="main-contacts__list-link" href="tel:+380961111111">
+              <svg class="main-contacts__list-icon" height="16" width="10">
                 <use href="./images/sprite.svg#icon-tel"></use>
               </svg>
               +38 096 111 11 11
