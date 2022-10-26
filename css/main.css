@@ -286,6 +286,18 @@ header {
   border-bottom: 1px solid #ECECEC;
 }
 
+.main-button {
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #2196F3;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
 /* logo */
 .logo {
   color: #000000;
@@ -367,4 +379,41 @@ header {
 .main-contacts__list-link:hover, .main-contacts__list-link:focus {
   color: #2196F3;
   fill: currentColor;
+}
+
+.main-screen {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #2F303A;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.main-screen__title {
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-screen__button {
+  padding: 10px 32px;
+  min-width: 216px;
+  color: #FFFFFF;
+  background-color: #2196F3;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.main-screen__button:hover, .main-screen__button:focus {
+  color: #FFFFFF;
+  background-color: #188CE8;
 }/*# sourceMappingURL=main.css.map */
