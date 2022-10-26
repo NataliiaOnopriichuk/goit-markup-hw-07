@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -236,4 +237,64 @@ Add the correct display in Chrome and Safari.
 */
 summary {
   display: list-item;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+h1, h2, h3, p, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img, svg {
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1200px;
+}
+
+/* маркери */
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+/* прихований текст */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* logo */
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+}
+.logo__content {
+  color: #2196F3;
+  font-family: Raleway, sans-serif;
+}
+
+.logo--color {
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

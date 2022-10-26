@@ -1,0 +1,20 @@
+/* logo */
+.logo {
+    color: #000000;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+
+    &__content {
+        color: $accent-color;
+        
+        font-family: Raleway, sans-serif;
+    }
+}
+
+
+  .logo--color {
+        color:$primary-white-color;
+    }
