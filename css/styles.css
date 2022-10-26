@@ -13,10 +13,6 @@
     --transition-effect:cubic-bezier(0.4,0,0.2,1);
 }
 
-header {
-    border-bottom: 1px solid #ECECEC;
-}
-
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
@@ -40,6 +36,12 @@ margin: 0 auto;
 padding: 0 15px;
 width: 1200px;
 }
+
+
+header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 
 /* logo */
 .logo {
