@@ -1,12 +1,14 @@
 @import "./base/normalize";
 @import "./utils/variables";
 @import "./utils/const";
+@import "./UI/section-padding";
+@import "./UI/section-title";
 @import "./components/shared/main-button";
 @import "./components/shared/logo";
 @import "./components/header/main-nav";
 @import "./components/header/main-contacts";
 @import "./components/page-index/hero";
-@import "./components/shared/ua";
 @import "./components/page-index/our-features";
 @import "./components/page-index/our-service";
 @import "./components/page-index/our-team";
+@import "./components/page-index/our-customers";

@@ -771,12 +771,16 @@
 
 /* companies */
 
-.list-company {
+/* .our-customers__title {
+    margin-bottom: 50px;
+}
+
+.our-customers__list {
     display: flex;
     gap:30px;
 }
 
-.list-company .link {
+.our-customers__list-link {
     display: flex;
     align-items:center;
     justify-content: center;
@@ -794,11 +798,11 @@
     border 250ms var(--transition-effect);
 }
 
-.list-company .link:hover,
-.list-company .link:focus {
+.our-customers__list-link:hover,
+.our-customers__list-link:focus {
     fill: currentColor;
     border: 1px solid currentColor; 
-}
+} */
 
 /* portfolio */
 /* button */

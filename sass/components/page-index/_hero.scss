@@ -22,11 +22,9 @@
         margin-bottom: 30px;
     
         color: $primary-white-color;
-    
+
         font-style: normal;
-        font-weight: 900;
-        @include font  (44px, 1.4);
-        letter-spacing: 0.06em;
+        @include font  (900, 44px, 1.4, 0.06em);
         text-transform: uppercase;
     }
     
@@ -42,12 +40,13 @@
     
         transition: color 250ms $transition-effect,
         background-color 250ms $transition-effect;
+
+        
+        &__button:hover, &__button:focus {
+            color: $primary-white-color;
+            background-color: $hover-blue-color;
+        }
     }
     
-    &__button:hover,
-    &__button:focus {
-        color: $primary-white-color;
-        background-color: $hover-blue-color;
-    }
 }
 

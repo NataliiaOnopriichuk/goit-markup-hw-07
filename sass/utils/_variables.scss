@@ -20,18 +20,20 @@
     // mixin
 
         
-    @mixin flexed($alignItems, $justifyContent) {
+    @mixin flexed($alignItems: center, $justifyContent: center) {
         display: flex;
         align-items:$alignItems;
         justify-content: $justifyContent;
      }
 
-   @mixin font($fontSize, $lineHeight) {
+   @mixin font($fontWeight: 400, $fontSize: 14px, $lineHeight: 1.71, $letterSpacing: 0.03em) {
+        font-weight: $fontWeight;
         font-size: $fontSize;
         line-height: $lineHeight;
+        letter-spacing: $letterSpacing;
      }
 
-   @mixin gap ($gap) {
+   @mixin gap ($gap:30px) {
       display: flex;
       gap: $gap;
    }
