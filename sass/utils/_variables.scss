@@ -4,11 +4,34 @@
     $accent-color:#2196F3;
     $primary-white-color:#FFFFFF;
     $secondary-white-color:rgba(255, 255, 255, 0.6);
+    $background-transform-gray:rgba(47, 48, 58, 0.8);
     $background-grey:#2F303A;
     $hover-blue-color:#188CE8;
     $primary-icon-color:#AFB1B8;
     $decoration-color:#000000;
     $light-border:#ECECEC;
 
+    
+    
+    // transition
     $transition-effect:cubic-bezier(0.4,0,0.2,1);
+
+    // mixin
+
+        
+    @mixin flexed($alignItems, $justifyContent) {
+        display: flex;
+        align-items:$alignItems;
+        justify-content: $justifyContent;
+     }
+
+   @mixin font($fontSize, $lineHeight) {
+        font-size: $fontSize;
+        line-height: $lineHeight;
+     }
+
+   @mixin gap ($gap) {
+      display: flex;
+      gap: $gap;
+   }
 
