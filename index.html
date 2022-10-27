@@ -549,23 +549,25 @@
           </label>
           <!-- чекбокс -->
           <input
-            class="checkbox"
+            class="modal__checkbox"
             type="checkbox"
             name="checkbox"
             id="checkbox"
           />
-          <label class="modal-checkbox" for="checkbox">
-            <span class="new-checkbox">
-              <svg class="icon-check" width="16" height="15">
+          <label class="modal__checkbox-label" for="checkbox">
+            <span class="modal__checkbox-new">
+              <svg class="modal__checkbox-icon" width="16" height="15">
                 <use href="./images/sprite.svg#icon-check"></use>
               </svg>
             </span>
-            <span class="checkbox-dscr">
+            <span class="modal__checkbox-text">
               Погоджуюся з розсилкою та приймаю
-              <a class="link" href="">Умови договору</a>
+              <a class="modal__checkbox-link" href="">Умови договору</a>
             </span>
           </label>
-          <button class="modal-btn" type="submit">Підписатися</button>
+          <button class="main-button modal__checkbox-btn" type="submit">
+            Підписатися
+          </button>
         </form>
       </div>
     </div>
