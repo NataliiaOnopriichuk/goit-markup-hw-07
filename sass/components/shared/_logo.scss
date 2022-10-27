@@ -3,8 +3,7 @@
     color: #000000;
 
     font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
+    @include font(700, 26px);
     text-decoration: none;
 
     &__content {
@@ -14,8 +13,10 @@
     }
     
     &--color {
-          color:$primary-white-color;
-          margin-bottom: 20px;
+        display:block;
+        margin-bottom: 20px;
+
+        color:$primary-white-color;
     }
       
 }

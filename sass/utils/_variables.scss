@@ -6,6 +6,7 @@
     $secondary-white-color:rgba(255, 255, 255, 0.6);
     $background-transform-gray:rgba(47, 48, 58, 0.8);
     $background-transform-light-gray:rgba(255, 255, 255, 0.1);
+    $light-gray:rgba(255, 255, 255, 0.3);
     $background-grey:#2F303A;
     $hover-blue-color:#188CE8;
     $primary-icon-color:#AFB1B8;
@@ -21,8 +22,8 @@
     // mixin
 
         
-    @mixin flexed($alignItems: center, $justifyContent: center) {
-        display: flex;
+    @mixin flexed($flex: flex, $alignItems: center, $justifyContent: center) {
+        display: $flex;
         align-items:$alignItems;
         justify-content: $justifyContent;
      }

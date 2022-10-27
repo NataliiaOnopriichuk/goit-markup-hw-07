@@ -41,21 +41,18 @@
           </ul>
         </nav>
         <!-- Контакти -->
-        <ul class="main-contacts">
-          <li class="main-contacts__list-item">
-            <a
-              class="main-contacts__list-link"
-              href="mailto:info@devstudio.com"
-            >
-              <svg class="main-contacts__list-icon" height="12" width="16">
+        <ul class="main-nav__contacts">
+          <li class="main-nav__contacts-item">
+            <a class="main-nav__contacts-link" href="mailto:info@devstudio.com">
+              <svg class="main-nav__contacts-icon" height="12" width="16">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="main-contacts__list-item">
-            <a class="main-contacts__list-link" href="tel:+380961111111">
-              <svg class="main-contacts__list-icon" height="16" width="10">
+          <li class="main-nav__contacts-item">
+            <a class="main-nav__contacts-link" href="tel:+380961111111">
+              <svg class="main-nav__contacts-icon" height="16" width="10">
                 <use href="./images/sprite.svg#icon-tel"></use>
               </svg>
               +38 096 111 11 11
@@ -488,19 +485,19 @@
           </ul>
         </div>
         <!-- форма підписатися -->
-        <div class="form-field">
-          <p class="footer-title">Підпишіться на розсилку</p>
+        <div class="footer__form">
+          <p class="footer__network-title">Підпишіться на розсилку</p>
           <form>
-            <label
+            <label class="footer__form-label"
               ><input
-                class="form-input"
+                class="footer__form-input"
                 type="email"
                 name="sign-up"
                 placeholder="E-mail"
             /></label>
-            <button class="btn-sign" type="submit">
+            <button class="main-button footer__form-btn" type="submit">
               Підписатися
-              <svg width="24" height="24" class="btn-icon">
+              <svg class="footer__form-icon" width="24" height="24">
                 <use href="./images/sprite.svg#icon-send"></use>
               </svg>
             </button>

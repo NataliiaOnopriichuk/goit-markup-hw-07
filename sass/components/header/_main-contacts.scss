@@ -1,36 +1,37 @@
-.main-contacts {
-    display: flex;
-    margin-left: auto;
-    gap: 30px;
+.main-nav {
+
+    &__contacts {
+        @include gap();
+        margin-left: auto;
+    }
     
-    &__list-link {
-        display: flex;
-        align-items:center;
+    &__contacts-icon {
+        margin-right: 10px;
+    }
+    
+    &__contacts-link {
+        @include flexed(flex, center);
         padding-top: 32px;
         padding-bottom: 32px;
     
         color: $primary-text-color;
         fill: $primary-text-color;
     
-        font-weight: 500;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+        @include font(500, 14px, 1.14, 0.02);
         text-decoration: none;
     
-        transition: color 250ms $transition-effect, 
-                    fill 250ms $transition-effect;
-    }
-    
-    &__list-icon {
-        margin-right: 10px;
-    }
-
-    &__list-link:hover,
-    &__list-link:focus {
-        color: $accent-color;
-        fill: currentColor;
+        transition: color 250ms $transition-effect, fill 250ms $transition-effect;
+                    
+        &:hover,
+        &:focus {
+            color: $accent-color;
+            fill: currentColor;
+        }
     }
 }
+
+
+
 
 
 

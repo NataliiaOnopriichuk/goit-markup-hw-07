@@ -2,7 +2,6 @@
 .section-title {
     color: $title-text-color;
 
-    font-size: 36px;
-    line-height: 1.17;
+    @include font(700, 36px, 1.17);
     text-align: center;
 }

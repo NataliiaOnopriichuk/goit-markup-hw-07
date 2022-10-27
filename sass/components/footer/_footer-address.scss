@@ -5,7 +5,7 @@
     background-color: $background-grey;
     
     &__nav {
-        @include flexed (baseline);
+        @include flexed (flex, baseline, null);
     }
     
     &__adress-list {
