@@ -35,14 +35,14 @@
         color: $primary-white-color;
         background-color: $accent-color;
     
-        letter-spacing: 0.06em;
+        @include font (700, 16px, 1.9, 0.06em);
         cursor: pointer;
     
         transition: color 250ms $transition-effect,
         background-color 250ms $transition-effect;
 
         
-        &__button:hover, &__button:focus {
+        &:hover, &:focus {
             color: $primary-white-color;
             background-color: $hover-blue-color;
         }

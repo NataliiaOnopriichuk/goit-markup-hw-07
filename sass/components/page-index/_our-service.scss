@@ -5,7 +5,7 @@
         margin-bottom: 50px;
     } 
     &__list {
-        @include gap (30px);
+        @include gap ();
     }
     &__list-tumb {
         position: relative;
@@ -23,8 +23,7 @@
         background-color:$background-transform-gray;
         color: $primary-white-color;
     
-        font-weight: 700;
-        line-height: 1.14;
+        @include font ($fontWeight: 700);
         text-align: center;
         text-transform: uppercase;
     }
