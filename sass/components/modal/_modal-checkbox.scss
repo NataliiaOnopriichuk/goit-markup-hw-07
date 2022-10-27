@@ -7,11 +7,11 @@
         z-index: -1;
 
 
-        .modal__checkbox:checked+ .modal__checkbox-label .modal__checkbox-new {
+        &:checked+ .modal__checkbox-label .modal__checkbox-new {
             border: none;
         }
         
-        .modal__checkbox:checked+ .modal__checkbox-label .modal__checkbox-new .modal__checkbox-icon {
+        &:checked+ .modal__checkbox-label .modal__checkbox-new .modal__checkbox-icon {
             opacity: 1;
             transition: opacity 250ms $transition-effect;
         }
