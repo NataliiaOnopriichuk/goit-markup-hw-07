@@ -240,8 +240,8 @@ summary {
 }
 
 body {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
+  background-color: #FFFFFF;
+  color: #757575;
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
