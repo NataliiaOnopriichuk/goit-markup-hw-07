@@ -64,5 +64,10 @@
             fill: currentColor;
         } 
     }
+
+    &__link--color {
+        background-color: $background-transform-light-gray;
+        fill: $primary-white-color;
+    }
     
 }

@@ -324,6 +324,7 @@ header {
 }
 .logo--color {
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 /* main nav */
@@ -553,6 +554,10 @@ header {
   background-color: #2196F3;
   fill: currentColor;
 }
+.network-list__link--color {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #FFFFFF;
+}
 
 .our-customers__title {
   margin-bottom: 50px;
@@ -577,4 +582,61 @@ header {
 .our-customers__list-link:hover, .our-customers__list-link:focus {
   fill: currentColor;
   border: 1px solid currentColor;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2F303A;
+}
+.footer__nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.footer__adress-list {
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
+  font-style: normal;
+}
+.footer__adress-content {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer__adress-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer__adress-link:hover, .footer__adress-link:focus {
+  color: #2196F3;
+}
+
+.footer__network {
+  margin-left: 70px;
+  width: 206px;
+}
+.footer__network-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer__network-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */

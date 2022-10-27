@@ -124,7 +124,7 @@
 } */
 
 /* footer */
-.footer {
+/* .footer {
     padding-top: 60px;
     padding-bottom: 60px;
 
@@ -144,12 +144,12 @@
     text-decoration: none;
 }
 
-.footer .container {
+.footer__nav {
     display: flex;
     align-items:baseline;
 }
 
-.adress {
+.footer__adress-list {
     display: flex;
     flex-direction: column;
     gap:9px;
@@ -157,14 +157,14 @@
     font-style: normal;   
 }
 
-.adress-title {
+.footer__adress-content {
     color: var(--primary-white-color);
 
     text-decoration: none;
     line-height: calc(24/14);
 }
 
-.adress-link {
+.footer__adress-link {
     color: var(--secondary-white-color);
 
     text-decoration: none;
@@ -173,19 +173,19 @@
     transition: color 250ms var(--transition-effect);
 }
 
-.adress-link:hover,
-.adress-link:focus {
+.footer__adress-link:hover,
+.footer__adress-link:focus {
     color: var(--accent-color);
-}
+} */
 
 /* соціальні мережі */
 
-.footer-network {
+/* .footer__network {
     margin-left: 70px;
     width: 206px;
 }
 
-.footer-title {
+.footer__network-title {
     margin-bottom: 20px;
 
     font-size: 14px;
@@ -196,13 +196,13 @@
     color: var(--primary-white-color);
 }
 
-.footer-network .network-list {
+.footer__network-list {
     display: flex;
     justify-content: space-between;
     align-items:center;
-}
+} */
 
-.footer-network .link {
+/* .footer-network .link {
     display: flex;
     justify-content: center;
     align-items:center;
@@ -222,7 +222,7 @@
 .footer-network .link:hover,
 .footer-network .link:focus {
     background-color: var(--accent-color);
-}
+} */
 
 /* форма підписатися */
 
